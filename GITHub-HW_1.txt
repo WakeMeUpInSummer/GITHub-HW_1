@@ -1,0 +1,306 @@
+﻿JSON
+
+4. Создать внешний репозиторий c названием JSON.
+1)В своем профиле на github.com создаем новый репозиторий.
+2)Называем JSON 
+
+5. Клонировать репозиторий JSON на локальный компьютер.
+1)Копируем ссылку в репозитории
+2)В терминале вводим команду git clone и вставляем ссылку.
+
+6. Внутри локального JSON создать файл “new.json”.
+1)cd JSON
+2)touch new.json
+
+7. Добавить файл под гит.
+1)git add new.json
+
+8. Закоммитить файл.
+1)git commit -m "add file json"
+
+9. Отправить файл на внешний GitHub репозиторий.
+1)git push
+
+10. Отредактировать содержание файла “new.json” - написать информацию
+о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+Всё написать в формате JSON.
+1)vim new.json
+2){
+	"name" : "Olga",
+	"surname" : "Domogatskaja",
+	"pet" : 2,
+	"future_salary" : 1000
+}
+3)Сохранили, вышли.
+
+11. Отправить изменения на внешний репозиторий.
+1)git commit -am "modified and add text to json file"
+2)git push
+
+12. Создать файл preferences.json
+1)touch preferences.json
+
+13. В файл preferences.json добавить информацию о своих
+ предпочтениях (Любимый фильм, любимый сериал, любимая
+ еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+ 1)vim preferences.json
+ 2){
+	"movie" : "Dogma",
+	"serial" : "The_story_of_american_horror",
+	"dish" : "baked_salmon",
+	"season" : "spring",
+	"country" : "Japan"
+}
+3)Сохраняем, выходим.
+
+14. Создать файл sklls.json добавить информацию о скиллах 
+которые будут изучены на курсе в формате JSON
+1)touch skills.json
+2)vim skills.json
+3){
+	"terminal" : "commands",
+	"js" : "introduction",
+	"json" : "key_volume",
+	"gitbash" : "using",
+	"github" : "using"
+}
+4) Сохраняем, выходим.
+ 
+15. Отправить сразу 2 файла на внешний репозиторий.
+1)git add .
+2)git commit -m "add preferences and skills json files"
+3)git push
+
+16. На веб интерфейсе создать файл bug_report.json.
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+1)В своем профиле GitHub : Add file - Create new file.
+2)Называем bug_report.json
+3)Коммитим (сохраняем)
+
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить
+баг репорт в формате JSON.
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+1)Жмем Edit this file
+2){
+	"title" : "impossible to push account button on the main page",
+	"ID" : BR20220505,
+	"status" : "open",
+	"priority" : "high",
+	"severity" : "major",
+	"actual result" : "button cant be pushed",
+	"expected result" : "button can be pushed",
+	"steps to reproduce" : "open www.mysite.com, push account button"
+}
+3)Коммитим (сохраняем изменения)
+
+20. Синхронизировать внешний и локальный репозиторий JSON
+1)git fetch (проверяем, есть ли что-то новое на внешнем)
+2)git pull
+
+XML
+
+21. Создать внешний репозиторий c названием XML.
+1)В своем профиле на github.com создаем новый репозиторий.
+2)Называем XML 
+
+22. Клонировать репозиторий XML на локальный компьютер.
+1)Копируем ссылку в репозитории
+2)В терминале вводим команду git clone и вставляем ссылку.
+
+23. Внутри локального XML создать файл “new.xml”.
+1)cd XML
+2)touch new.xml
+
+24. Добавить файл под гит.
+1)git add new.xml
+
+25. Закоммитить файл.
+1)git commit -m "add file xml"
+
+26. Отправить файл на внешний GitHub репозиторий.
+1)git push
+
+27. Отредактировать содержание файла “new.xml” - написать информацию о
+себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
+Всё написать в формате XML.
+1)vim new.xml
+2)<xml>
+	<name>"Olga"</name>
+	<surname>"Domogatskaja"</surname>
+	<pet>2</pet>
+	<future_salary>1000</future_salary>
+</xml>
+3)Сохранили, вышли.
+
+28. Отправить изменения на внешний репозиторий.
+1)git commit -am "modified and add text to xml file"
+2)git push
+
+29. Создать файл preferences.xml
+1)touch preferences.xml
+
+30. В файл preferences.xml добавить информацию о своих предпочтениях
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, 
+сторона которую хотели бы посетить) в формате XML.
+1)vim preferences.xml
+ 2)<xml>
+	<movie>"Dogma"</movie>
+	<serial>"The_story_of_american_horror"</serial>
+	<dish>"baked_salmon"</dish>
+	<season>"spring"</season>
+	<country>"Japan"</country>
+</xml>
+3)Сохраняем, выходим.
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут
+изучены на курсе в формате XML
+1)touch skills.xml
+2)vim skills.xml
+3)<xml>
+	<terminal>"commands"</terminal>
+	<js>"introduction"</js>
+	<json>"key_volume"</json>
+	<gitbash>"using"</gitbash>
+	<github>"using"</github>
+</xml>
+4) Сохраняем, выходим.
+
+32. Сделать коммит в одну строку.
+1)git commit -am "add preferences and skills xml files"
+
+33. Отправить сразу 2 файла на внешний репозиторий.
+3)git push (файлы мы уже добавили)
+
+34. На веб интерфейсе создать файл bug_report.xml.
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+1)В своем профиле GitHub : Add file - Create new file.
+2)Называем bug_report.xml
+3)Коммитим (сохраняем)
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, 
+добавить баг репорт в формате XML.
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+1)Жмем Edit this file
+2)<xml>
+  <title>"impossible to push account button on the main page"</title>
+  <ID>BR20220505</ID>
+  <status>"open"</status>
+  <priority>"high"</status>
+  <severity>"major"</severity>
+  <actual result>"button cant be pushed"</actual result>
+  <expected result>"button can be pushed"</expected result>
+  <steps to reproduce>"open www.mysite.com, push account button>
+</xml>
+3)Коммитим (сохраняем изменения)
+
+38. Синхронизировать внешний и локальный репозиторий XML
+1)git fetch (проверяем, есть ли что-то новое на внешнем)
+2)git pull
+
+
+TXTА 
+
+1. Создать внешний репозиторий c названием TXT.
+1)В своем профиле на github.com создаем новый репозиторий.
+2)Называем TXT 
+ 
+2. Клонировать репозиторий TXT на локальный компьютер.
+1)Копируем ссылку в репозитории
+2)В терминале вводим команду git clone и вставляем ссылку.
+
+3. Внутри локального TXT создать файл “new.txt”.
+1)cd TXT
+2)touch new.txt
+
+4. Добавить файл под гит.
+1)git add new.txt
+
+5. Закоммитить файл.
+1)git commit -m "add file txt"
+
+6. Отправить файл на внешний GitHub репозиторий.
+1)git push
+
+7. Отредактировать содержание файла “new.txt” - написать информацию о
+себе (ФИО, возраст, количество домашних животных, будущая желаемая
+зарплата). Всё написать в формате TXT.
+1)vim new.txt
+2)1)name: Olga
+  2)surname: Domogatskaja
+  3)pet: 2
+  4)future_salary: 1000
+3)Сохранили, вышли.
+
+8. Отправить изменения на внешний репозиторий.
+1)git commit -am "modified and add text to txt file"
+2)git push
+
+9. Создать файл preferences.txt
+1)touch preferences.txt
+
+10. В файл preferences.txt” добавить информацию о своих предпочтениях
+(Любимый фильм, любимый сериал, любимая еда, любимое время
+года, сторона которую хотели бы посетить) в формате TXT.
+1)vim preferences.txt
+2)1)movie: Dogma
+  2)serial: The_story_of_american_horror
+  3)dish: baked_salmon
+  4)season: spring
+  5)country: Japan
+3)Сохраняем, выходим.
+
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут
+изучены на курсе в формате TXT
+1)touch skills.txt
+2)vim skills.txt
+3)1)terminal: commands
+  2)js: introduction
+  3)json: key_volume
+  4)gitbash: using
+  5)github: using
+4)Сохраняем, выходим.
+
+12. Сделать коммит в одну строку.
+1)git commit -am "add preferences and skills txt files"
+
+13. Отправить сразу 2 файла на внешний репозиторий.
+3)git push (файлы мы уже добавили)
+
+14. На веб интерфейсе создать файл bug_report.txt.
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+1)В своем профиле GitHub : Add file - Create new file.
+2)Называем bug_report.txt
+3)Коммитим (сохраняем)
+
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить 
+баг репорт в формате TXT.
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+1)Жмем Edit this file
+2)title: impossible to push account button on the main page
+  ID: BR20220505
+  status: open
+  priority: high
+  severity: major
+  actual result: button cant be pushed
+  expected result: button can be pushed
+  steps to reproduce: open www.mysite.com, push account button
+3)Коммитим (сохраняем изменения)
+
+18. Синхронизировать внешний и локальный репозиторий TXT
+1)git fetch (проверяем, есть ли что-то новое на внешнем)
+2)git pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
